@@ -1,11 +1,14 @@
 var AppView = Backbone.View.extend({
 
-  el: '#app',
+  el: '#app', // backbone is give us the $el replacing jQuery
 
   initialize: function() {
+    // this.collection = options.colletion is automaticly set up for us by backbone
 
+    // add child view
     this.title = new TitleView();
 
+    // set data events
     this.input = new InputView({
       collection: this.collection
     });
@@ -13,7 +16,7 @@ var AppView = Backbone.View.extend({
     this.list = new ListView({
       collection: this.collection
     });
-
+    //render the view as soon as the view instanticate
     this.render();
   },
 

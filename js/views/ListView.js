@@ -1,6 +1,6 @@
 var ListView = Backbone.View.extend({
-
-  id: 'list',
+  // if el is not set, default to <div>
+  id: 'list', // see id to 'list' so that css can work
 
   initialize: function() {
     this.listenTo(this.collection, 'add', this.render);

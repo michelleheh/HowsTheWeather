@@ -1,8 +1,8 @@
 var InputView = Backbone.View.extend({
 
-  tagName: 'input',
-  // el: '<input>',
-
+  // el: '<input>', 
+  tagName: 'input', // another way to add a tag
+  // event handler for view in BackBone
   events: {
     'keydown': 'keyAction',
   },
@@ -18,7 +18,7 @@ var InputView = Backbone.View.extend({
 
   keyAction: function(e) {
 
-    var isEnterKey = (e.which === 13);
+    var isEnterKey = (e.which === 13); // 13 is the ENTER key
 
     if(isEnterKey && !this.$el.val().trim().match(/^(?=.*[0-9].*)[0-9]{5}$/)) {
 
