@@ -22,11 +22,11 @@ Github: github.com/DannyDelott
   * Adding new functionality
   * Updating existing functionality
 
-
 * View, Models, and Collections
   * Backbone#extend method
   * What properties to extend
   * Interacting with the  User, Models and Collections
+  
 * It’s Showtime!
   * https://github.com/DannyDelott/HowsTheWeather
   * http://dannydelott.github.io/HowsTheWeather/
