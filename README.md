@@ -2,15 +2,15 @@
 Tells you the weather when you put in a zip code.
 
 Demo: http://dannydelott.github.io/HowsTheWeather
----
+___
 ## Commented Version Based on Danny Delott's Lecture at Hack Reactor on 2016/03/23
 
 See Lecture Notes below
----
+___
 ## Evening Lecture: BACKBONE.JS Fundamentals: The Sauce
 `Twitter:` @DannyDelott
 `Github:` github.com/DannyDelott
----
+___
 
 * Modularity
   * Easy to navigate code
